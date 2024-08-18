@@ -26,7 +26,7 @@ namespace ValorantWallpaper
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     _selectedFilePath = openFileDialog.FileName;
-                    MessageBox.Show($"Vídeo selecionado: {_selectedFilePath}");
+                    MessageBox.Show($"Selected wallpaper: {_selectedFilePath}");
                 }
             }
         }
